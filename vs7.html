@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Email Registration Form</title>
+</head>
+<body>
+    <h1>New Email Registration</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Textbox for Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Password Text Box -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Text Area for Address -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+        <!-- Radio Buttons for Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes for Interests -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+
+        <!-- Drop-down List for Country -->
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="australia">Australia</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
